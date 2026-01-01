@@ -1,0 +1,218 @@
+{
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Zeeshan Raheem Awan",
+    "descriptionSegments": [
+      {
+        "text": "Advocate High Court Pakistan & Managing Partner at "
+      },
+      {
+        "strong": "ZRA Law Associates"
+      },
+      {
+        "text": ". Providing expert legal services in "
+      },
+      {
+        "strong": "corporate & commercial law, contracts, civil and criminal litigation, family and inheritance matters, property & real estate disputes"
+      },
+      {
+        "text": ", along with strategic legal advisory for local and international clients."
+      }
+    ],
+    "stats": [
+      {
+        "value": "1100+",
+        "label": "Cases Handled"
+      },
+      {
+        "value": "15+",
+        "label": "Years Legal Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Satisfied Clients"
+      }
+    ],
+    "image": {
+      "src": "https://randomuser.me/api/portraits/men/32.jpg",
+      "alt": "Zeeshan Raheem Awan - Advocate High Court Pakistan"
+    }
+  },
+  "biography": {
+    "headingLines": [
+      "Advocate High Court Pakistan",
+      "Corporate, Civil & Constitutional Law"
+    ],
+    "items": [
+      {
+        "type": "text",
+        "text": "I am Zeeshan Raheem Awan, Advocate High Court Pakistan and Managing Partner at ZRA Law Associates, with extensive experience in civil, criminal, corporate, and constitutional litigation."
+      },
+      {
+        "type": "text",
+        "text": "My legal practice focuses on providing strategic, result-oriented representation to individuals, corporations, overseas Pakistanis, and foreign investors, ensuring protection of legal rights and commercial interests."
+      },
+      {
+        "type": "strong",
+        "strong": "Litigation Experience:",
+        "text": "Successfully handled 1,100+ cases including property disputes, land agreements, suits for declaration and cancellation, recovery matters, and specific performance cases."
+      },
+      {
+        "type": "strong",
+        "strong": "Court Representation:",
+        "text": "Regularly represent clients before Civil Courts, District Courts, and the High Court, conducting cross-examinations and advancing persuasive legal arguments."
+      },
+      {
+        "type": "strong",
+        "strong": "Corporate & Commercial Law:",
+        "text": "Advisory and representation in company formation, contract drafting and review, compliance, regulatory matters, and commercial disputes."
+      },
+      {
+        "type": "strong",
+        "strong": "Family & Inheritance Law:",
+        "text": "Handling matrimonial disputes, guardianship, succession, maintenance (Nafaqa), dower (Mehr), and inheritance matters with discretion and diligence."
+      },
+      {
+        "type": "strong",
+        "strong": "Cross-Border Legal Services:",
+        "text": "Providing legal assistance to overseas Pakistanis and international clients in property, corporate, and litigation matters in Pakistan."
+      }
+    ],
+    "image": {
+      "alt": "Advocate Profile"
+    }
+  },
+  "work": {
+    "title": "What We Do",
+    "paragraphs": [
+      {
+        "segments": [
+          {
+            "strong": "ZRA Law Associates"
+          },
+          {
+            "text": ", led by "
+          },
+          {
+            "strong": "Zeeshan Raheem Awan, Advocate High Court Pakistan"
+          },
+          {
+            "text": ", provides comprehensive legal services across civil, criminal, corporate, family, and constitutional law. We are committed to delivering practical, strategic, and result-oriented legal solutions."
+          }
+        ]
+      },
+      {
+        "segments": [
+          {
+            "text": "Our firm represents individuals, corporations, overseas Pakistanis, and foreign investors, offering trusted legal advisory and strong courtroom representation with a focus on professionalism, integrity, and client confidence."
+          }
+        ]
+      }
+    ],
+    "cards": [
+      {
+        "title": "Civil & Property Law",
+        "description": "Representation in land and property disputes, sale and purchase agreements, cancellation of documents, recovery suits, specific performance cases, and all related civil litigation matters before competent courts."
+      },
+      {
+        "title": "Criminal & Litigation Services",
+        "description": "Legal defense and prosecution in criminal matters including white-collar crimes, cheque dishonor cases, fraud, FIR matters, bail applications, and trial proceedings in criminal courts."
+      },
+      {
+        "title": "Corporate & Legal Advisory",
+        "description": "Advisory services for company formation, contract drafting and review, compliance, regulatory matters, legal due diligence, and cross-border legal assistance for overseas Pakistanis and international clients."
+      }
+    ]
+  },
+  "practiceAreas": {
+    "ariaLabel": "Practice Areas - Legal Services in Pakistan",
+    "title": "Practice Areas",
+    "description": "ZRA Law Associates, led by Zeeshan Raheem Awan, Advocate High Court Pakistan, provides comprehensive legal services in Pakistan, including civil, criminal, corporate, family, and constitutional matters. We also offer cross-border legal services for overseas Pakistanis and foreign investors.",
+    "areas": [
+      {
+        "title": "Family & Personal Law",
+        "icon": "Scale",
+        "items": [
+          "Inheritance & Succession Matters",
+          "Guardianship & Child Custody",
+          "Maintenance & Dower (Nafaqa / Mehr)",
+          "Matrimonial & Family Disputes"
+        ]
+      },
+      {
+        "title": "Property & Real Estate Law",
+        "icon": "Home",
+        "items": [
+          "Land & Property Disputes",
+          "Sale & Purchase Agreements",
+          "Property Registration & Documentation"
+        ]
+      },
+      {
+        "title": "Corporate & Commercial Law",
+        "icon": "Briefcase",
+        "items": [
+          "Company Formation in Pakistan",
+          "Contract Drafting & Review",
+          "Compliance & Regulatory Advisory"
+        ]
+      },
+      {
+        "title": "Criminal Law & Litigation",
+        "icon": "Shield",
+        "items": [
+          "White-Collar Crime Defense",
+          "Cheque Bounce & Fraud Cases",
+          "Civil & Criminal Litigation Representation"
+        ]
+      },
+      {
+        "title": "Civil & High Court Matters",
+        "icon": "Landmark",
+        "items": [
+          "Writ Petitions in High Court",
+          "Constitutional & Service Matters",
+          "Civil Suits & Appeals"
+        ]
+      },
+      {
+        "title": "Legal Opinions & Advisory",
+        "icon": "FileText",
+        "items": [
+          "Legal Opinions for Overseas Pakistanis",
+          "Legal Due Diligence",
+          "Cross-Border Legal Advisory Services"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Let's discuss your legal matter",
+    "bio": "ZRA Law Associates, led by Zeeshan Raheem Awan (Advocate High Court Pakistan), provides expert legal services in corporate and commercial law, contracts, civil and criminal litigation, family and inheritance matters, property and real estate disputes, and comprehensive legal advisory for local and international clients, including overseas Pakistanis and foreign investors.",
+    "availability": "We are available for consultations regarding corporate, property, family, civil, criminal, and High Court matters.",
+    "profile": {
+      "name": "Zeeshan Raheem Awan",
+      "role": "Advocate High Court Pakistan | Managing Partner – ZRA Law Associates",
+      "contact": {
+        "email": "info@zralawassociates.com",
+        "phone": "+92-331-9324518",
+        "address": "Pakistan"
+      },
+      "socials": {
+        "linkedin": "https://www.linkedin.com/"
+      }
+    },
+    "form": {
+      "placeholders": {
+        "name": "Name*",
+        "email": "Email*",
+        "location": "Location*",
+        "budget": "Estimated Fee*",
+        "subject": "Legal Matter*",
+        "message": "Brief details of your case*"
+      },
+      "submitLabel": "Submit Inquiry",
+      "successAlert": "Thank you! Your message has been sent."
+    }
+  }
+}

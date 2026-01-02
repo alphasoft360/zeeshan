@@ -21,114 +21,8 @@ const ContactUs = () => {
         <div className="bg-white rounded-3xl shadow-lg p-8 lg:p-12">
           <div className="grid lg:grid-cols-2 gap-12">
 
-            {/* LEFT COLUMN */}
-            <div className="space-y-8">
-              <div>
-                <h2 className="text-4xl font-bold text-secondary-900 mb-3">
-                  {content.contact.heading}
-                </h2>
-                <p className="text-secondary-500 leading-relaxed">
-                  {content.contact.bio}
-                </p>
-              </div>
-
-              {/* CONTACT DETAILS */}
-              <div className="space-y-6 pt-4">
-
-                {/* Address */}
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-accent-light rounded-xl flex items-center justify-center">
-                    <MapPin className="w-6 h-6 text-accent" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-secondary-500">Address</p>
-                    <p className="text-secondary-900 font-medium">
-                      {content.contact.profile.contact.address}
-                    </p>
-                  </div>
-                </div>
-
-                {/* Email */}
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-accent-light rounded-xl flex items-center justify-center">
-                    <Mail className="w-6 h-6 text-accent" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-secondary-500">Email</p>
-                    <p className="text-secondary-900 font-medium">
-                      {content.contact.profile.contact.email}
-                    </p>
-                  </div>
-                </div>
-
-                {/* Phone */}
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-accent-light rounded-xl flex items-center justify-center">
-                    <Phone className="w-6 h-6 text-accent" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-secondary-500">Phone</p>
-                    <p className="text-secondary-900 font-medium">
-                      {content.contact.profile.contact.phone}
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* ADDITIONAL CONTACT INFO */}
-              <div className="space-y-6 pt-4">
-
-                {/* Business Hours */}
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-accent-light rounded-xl flex items-center justify-center">
-                    <Clock className="w-6 h-6 text-accent" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-secondary-500">Business Hours</p>
-                    <p className="text-secondary-900 font-medium">
-                      Monday - Friday: 9:00 AM - 6:00 PM
-                    </p>
-                    <p className="text-secondary-900 font-medium">
-                      Saturday: 10:00 AM - 4:00 PM
-                    </p>
-                    <p className="text-secondary-900 font-medium">
-                      Sunday: Closed
-                    </p>
-                  </div>
-                </div>
-
-                {/* Response Time */}
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-accent-light rounded-xl flex items-center justify-center">
-                    <MessageCircle className="w-6 h-6 text-accent" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-secondary-500">Response Time</p>
-                    <p className="text-secondary-900 font-medium">
-                      Email: Within 24 hours
-                    </p>
-                    <p className="text-secondary-900 font-medium">
-                      Phone: Immediate during business hours
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* SOCIAL ICONS */}
-              <div className="flex gap-3 pt-6">
-                <a
-                  href={content.contact.profile.socials.linkedin}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="w-10 h-10 border border-secondary-300 hover:bg-accent hover:border-accent rounded-lg flex items-center justify-center transition-all group"
-                >
-                  <Linkedin className="w-5 h-5 text-accent group-hover:text-white" />
-                </a>
-              </div>
-            </div>
-
-            {/* RIGHT COLUMN - ADDITIONAL INFO */}
-            <div className="space-y-8">
+            {/* RIGHT COLUMN - ADDITIONAL INFO (shows first on mobile) */}
+            <div className="lg:order-last space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-secondary-900 mb-4">
                   Get In Touch
@@ -187,6 +81,130 @@ const ContactUs = () => {
                 </a>
               </div>
             </div>
+
+            {/* LEFT COLUMN - CONTACT DETAILS (shows second on mobile) */}
+            <div className="lg:order-first space-y-8">
+              <div>
+                <h2 className="text-4xl font-bold text-secondary-900 mb-3">
+                  {content.contact.heading}
+                </h2>
+                <p className="text-secondary-500 leading-relaxed">
+                  {content.contact.bio}
+                </p>
+              </div>
+
+              {/* CONTACT DETAILS */}
+              <div className="space-y-6 pt-4">
+
+                {/* Address */}
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-accent-light rounded-xl flex items-center justify-center">
+                    <MapPin className="w-6 h-6 text-accent" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-secondary-500">Address</p>
+                    <p className="text-secondary-900 font-medium">
+                      {content.contact.profile.contact.address}
+                    </p>
+                  </div>
+                </div>
+
+                {/* Email */}
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-accent-light rounded-xl flex items-center justify-center">
+                    <Mail className="w-6 h-6 text-accent" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-secondary-500">Email</p>
+                    <a
+                      href={`mailto:${content.contact.profile.contact.email}`}
+                      className="text-secondary-900 font-medium hover:text-accent transition-colors"
+                    >
+                      {content.contact.profile.contact.email}
+                    </a>
+                  </div>
+                </div>
+
+                {/* Phone */}
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-accent-light rounded-xl flex items-center justify-center">
+                    <Phone className="w-6 h-6 text-accent" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-secondary-500">Phone</p>
+                    <a
+                      href={`https://wa.me/${content.contact.profile.contact.phone.replace(/\D/g, '')}`}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-secondary-900 font-medium hover:text-accent transition-colors"
+                    >
+                      {content.contact.profile.contact.phone}
+                    </a>
+                    <br />
+                    <a
+                      href={`https://wa.me/${content.contact.profile.contact.phone2.replace(/\D/g, '')}`}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-secondary-900 font-medium hover:text-accent transition-colors"
+                    >
+                      {content.contact.profile.contact.phone2}
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* ADDITIONAL CONTACT INFO */}
+              <div className="space-y-6 pt-4">
+
+                {/* Business Hours */}
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-accent-light rounded-xl flex items-center justify-center">
+                    <Clock className="w-6 h-6 text-accent" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-secondary-500">Business Hours</p>
+                    <p className="text-secondary-900 font-medium">
+                      Monday - Friday: 9:00 AM - 6:00 PM
+                    </p>
+                    <p className="text-secondary-900 font-medium">
+                      Saturday: 10:00 AM - 4:00 PM
+                    </p>
+                    <p className="text-secondary-900 font-medium">
+                      Sunday: Closed
+                    </p>
+                  </div>
+                </div>
+
+                {/* Response Time */}
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-accent-light rounded-xl flex items-center justify-center">
+                    <MessageCircle className="w-6 h-6 text-accent" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-secondary-500">Response Time</p>
+                    <p className="text-secondary-900 font-medium">
+                      Email: Within 24 hours
+                    </p>
+                    <p className="text-secondary-900 font-medium">
+                      Phone: Immediate during business hours
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* SOCIAL ICONS */}
+              <div className="flex gap-3 pt-6">
+                <a
+                  href={content.contact.profile.socials.linkedin}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-10 h-10 border border-secondary-300 hover:bg-accent hover:border-accent rounded-lg flex items-center justify-center transition-all group"
+                >
+                  <Linkedin className="w-5 h-5 text-accent group-hover:text-white" />
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

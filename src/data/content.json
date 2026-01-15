@@ -82,7 +82,7 @@
       }
     ],
     "image-2": {
-       "src": "/src/assets/image.jpeg",
+       "src": "/assets/image.jpeg",
       "alt": "Advocate Profile"
     }
   },

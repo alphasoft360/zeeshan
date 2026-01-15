@@ -42,7 +42,7 @@ const Stat = ({ value, label }) => {
 ========================= */
  const PortfolioHero = () => {
   return (
-  <section className="min-h-screen bg-gradient-to-br from-slate-200 via-slate-100 to-blue-100 flex items-center px-4 sm:px-6 lg:px-8"> 
+  <section className="min-h-screen bg-linear-to-br from-slate-200 via-slate-100 to-blue-100 flex items-center px-4 sm:px-6 lg:px-8"> 
 
       <div className="w-full max-w-7xl mx-auto bg-white rounded-3xl shadow-2xl">
         
@@ -50,7 +50,7 @@ const Stat = ({ value, label }) => {
 
           {/* LEFT — IMAGE */}
           <div className="flex justify-center lg:justify-start">
-            <div className="w-72 h-96 sm:w-80 sm:h-[26rem] bg-image-gradient rounded-3xl overflow-hidden shadow-xl">
+            <div className="w-72 h-96 sm:w-80 sm:h-104 bg-image-gradient rounded-3xl overflow-hidden shadow-xl">
               <img
                 src={content.hero.image.src}
                 alt={content.hero.image.alt}

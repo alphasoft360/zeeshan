@@ -1,24 +1,27 @@
 {
-  "hero": {
-    "greeting": "Hello, I'm",
-    "name": "Zeeshan Raheem Awan",
-    "descriptionSegments": [
-      {
-        "text": "Advocate High Court Pakistan & Managing Partner at "
-      },
-      {
-        "strong": "ZRA Law Associates"
-      },
-      {
-        "text": ". Providing expert legal services in "
-      },
-      {
-        "strong": "corporate & commercial law, contracts, civil and criminal litigation, family and inheritance matters, property & real estate disputes"
-      },
-      {
-        "text": ", along with strategic legal advisory for local and international clients."
-      }
-    ],
+  "hero":{
+  "greeting": "Hello, I'm",
+  "name": "Malik Zeeshan Raheem Awan",
+  "descriptionSegments": [
+    {
+      "strong": "Founder & Managing Partner | ZRA Law Associates, Pakistan"
+    },
+    {
+      "text": ". I provide expert legal counsel with a focus on "
+    },
+    {
+      "strong": "corporate and commercial law, including contracts, mergers & acquisitions, corporate governance, and compliance"
+    },
+    {
+      "text": ". I also handle "
+    },
+    {
+      "strong": "civil and criminal litigation, property and real estate disputes, and family and inheritance matters"
+    },
+    {
+      "text": ", offering strategic, results-driven solutions to local and international clients."
+    }
+  ],
     "stats": [
       {
         "value": "1100+",
@@ -34,7 +37,7 @@
       }
     ],
     "image": {
-      "src": "https://randomuser.me/api/portraits/men/32.jpg",
+      "src": "/assets/Zeeshan.jpeg",
       "alt": "Zeeshan Raheem Awan - Advocate High Court Pakistan"
     }
   },
@@ -78,7 +81,8 @@
         "text": "Providing legal assistance to overseas Pakistanis and international clients in property, corporate, and litigation matters in Pakistan."
       }
     ],
-    "image": {
+    "image-2": {
+       "src": "/src/assets/image.jpeg",
       "alt": "Advocate Profile"
     }
   },

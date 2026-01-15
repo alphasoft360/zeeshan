@@ -39,10 +39,8 @@ const Biography = () => {
             <div className="relative">
               <div className="w-80 h-[450px] md:w-[380px] md:h-[520px] hidden md:block rounded-3xl overflow-hidden shadow-xl bg-light">
                 <img
-                  src={`https://randomuser.me/api/portraits/men/${Math.floor(
-                    Math.random() * 100
-                  )}.jpg`}
-                  alt={content.biography.image.alt}
+                  src={content.biography['image-2'].src}
+                  alt={content.biography['image-2'].alt}
                   className="w-full h-full object-cover"
                 />
               </div>

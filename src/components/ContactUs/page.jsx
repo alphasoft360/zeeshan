@@ -34,7 +34,7 @@ const ContactUs = () => {
               </div>
 
               {/* SERVICES OFFERED */}
-              <div className="bg-linear-to-br from-[#0b1c2d] via-[#12263a] to-[#1f3a5f] rounded-2xl p-6 shadow-lg">
+              <div className="bg-linear-to-br from-[#0b1c2d] via-[#12263a] to-[#1f3a5f] rounded-2xl p-6 shadow-lg hover:scale-105 hover:-translate-y-2 transition-all duration-300">
                 <h4 className="text-lg font-semibold text-yellow-400 mb-4">
                   Our Legal Services
                 </h4>
@@ -63,7 +63,7 @@ const ContactUs = () => {
               </div>
 
               {/* QUICK CONTACT CARD */}
-              <div className="bg-linear-to-br from-[#0b1c2d] via-[#12263a] to-[#1f3a5f] rounded-2xl p-6 text-white shadow-lg">
+              <div className="bg-linear-to-br from-[#0b1c2d] via-[#12263a] to-[#1f3a5f] rounded-2xl p-6 text-white shadow-lg hover:scale-105 hover:-translate-y-2 transition-all duration-300">
                 <h4 className="text-lg font-semibold mb-3 text-yellow-400">
                   Need Immediate Legal Assistance?
                 </h4>

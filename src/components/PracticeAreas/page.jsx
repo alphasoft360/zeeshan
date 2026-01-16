@@ -50,6 +50,7 @@ const PracticeAreas = () => {
                   shadow-md
                   hover:bg-slate-800
                   hover:shadow-2xl
+                  hover:scale-105 hover:-translate-y-2
                   transition-all duration-300
                   cursor-pointer
                   group

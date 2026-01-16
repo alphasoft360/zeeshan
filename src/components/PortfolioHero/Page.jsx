@@ -50,7 +50,7 @@ const Stat = ({ value, label }) => {
 
           {/* LEFT — IMAGE */}
           <div className="flex justify-center">
-            <div className="w-80 h-[500px] sm:w-96 sm:h-[600px] lg:w-[400px] lg:h-[650px] bg-image-gradient rounded-3xl overflow-hidden shadow-xl">
+            <div className="w-80 h-[500px] sm:w-96 sm:h-[600px] lg:w-[400px] lg:h-[650px] bg-image-gradient rounded-3xl overflow-hidden shadow-xl hover:scale-105 hover:-translate-y-2 transition-all duration-300">
               <img
                 src={content.hero.image.src}
                 alt={content.hero.image.alt}

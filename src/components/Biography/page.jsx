@@ -37,7 +37,7 @@ const Biography = () => {
           {/* Right Side - Image */}
           <div className="flex justify-center">
             <div className="relative">
-              <div className="w-80 h-[450px] md:w-[380px] md:h-[520px] hidden md:block rounded-3xl overflow-hidden shadow-xl bg-light">
+              <div className="w-80 h-[450px] md:w-[380px] md:h-[520px] hidden md:block rounded-3xl overflow-hidden shadow-xl bg-light hover:scale-105 hover:-translate-y-2 transition-all duration-300">
                 <img
                   src={content.biography['image-2'].src}
                   alt={content.biography['image-2'].alt}

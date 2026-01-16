@@ -49,8 +49,8 @@ const Stat = ({ value, label }) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12 px-6 py-12 sm:px-10 lg:px-14">
 
           {/* LEFT — IMAGE */}
-          <div className="flex justify-center lg:justify-start">
-            <div className="w-72 h-96 sm:w-80 sm:h-104 bg-image-gradient rounded-3xl overflow-hidden shadow-xl">
+          <div className="flex justify-center">
+            <div className="w-80 h-[500px] sm:w-96 sm:h-[600px] lg:w-[400px] lg:h-[650px] bg-image-gradient rounded-3xl overflow-hidden shadow-xl">
               <img
                 src={content.hero.image.src}
                 alt={content.hero.image.alt}
